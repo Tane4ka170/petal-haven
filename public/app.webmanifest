@@ -1,0 +1,19 @@
+{
+  "lang": "en-EN",
+  "name": "Vite Vanilla JS — Template",
+  "short_name": "Vite Vanilla JS — Template",
+  "description": "Petal Haven Plant Shop is a dynamic and forward-thinking brand specializing in the sale of a diverse array of plants and accessories tailored for plant enthusiasts. Their store boasts an extensive collection of both indoor and outdoor plants, including rare and exotic species carefully chosen for their beauty, health benefits, and ease of maintenance. Complementing this selection are stylish and functional accessories, including planters, pots, and plant stands, designed to enhance any decor style. Whether you're an experienced plant enthusiast or just starting, Petal Haven Plant Shop provides all the essentials to cultivate a flourishing indoor or outdoor oasis.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "icons": [
+    {
+      "src": "/favicon/favicon-512.ico",
+      "sizes": "512x512",
+      "type": "image/ico",
+      "purpose": "maskable"
+    }
+  ]
+}

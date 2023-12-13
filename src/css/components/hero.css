@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.hero-section {
+  height: 1093px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../images/backgroundhero.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-div {
+  display: flex;
+  flex-direction: column;
+  width: 605px;
+  height: 458px;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.hero-div-svg {
+  display: flex;
+}

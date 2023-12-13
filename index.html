@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- ESSENTIAL -->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- GENERAL -->
+    <title>Petal haven</title>
+    <meta name="title" content="Vite Vanilla JS — Template" />
+    <meta name="application-name" content="Vite Vanilla JS — Template" />
+    <meta
+      name="description"
+      content="Start a Vanilla JavaScript App, SPA, landing page or website using Vite, SASS / SCSS, Tailwind CSS and much more, in just 30 seconds."
+    />
+    <meta
+      name="keywords"
+      content="
+        vanilla js vite, vanillajs vite, vanilla.js vite, vanilla-js vite,
+        vanilla javascript vite, vanillajavascript vite, vanilla.javascript vite, vanilla-javascript vite,
+        vanilla js vite template, vanillajs vite templante, vanilla.js vite templante, vanilla-js vite templante,
+        vanilla javascript vite templante, vanillajavascript vite templante, vanilla.javascript vite templante, vanilla-javascript vite templante,
+        javascript, js, vanilla-javascript, vanilla-js, development, template, boilerplate, template-boilerplate, boilerplate-frontend, starter-kit, vite, babel, core-js, husky, eslint, commitlint, prettier, postcss, tailwind, tailwindcss, sass, scss, css, github, web app, web-app, webapp, spa 
+      "
+    />
+    <link rel="manifest" href="/app.webmanifest" />
+    <link rel="icon" sizes="512x512" href="/favicon/favicon-512.ico" />
+    <link rel="stylesheet" href="./src/css/global.css" />
+    <!-- <script defer src="/_vercel/insights/script.js"></script> -->
+  </head>
+
+  <body>
+    <noscript class="text-center text-lg text-red-500">
+      Enable JavaScript to enjoy all the features of this app.
+    </noscript>
+
+    <main id="hero">
+      <script>
+        fetch('src/partials/hero/hero.html')
+          .then((response) => response.text())
+          .then((html) => {
+            document.getElementById('hero').innerHTML = html;
+          })
+          .catch((error) => {
+            console.error('Помилка при отриманні HTML:', error);
+          });
+      </script>
+      background:
+    </main>
+  </body>
+  <!-- 
+  <script type="module" src="src/js/index.js"></script> -->
+</html>
+
