@@ -25,6 +25,11 @@ body {
   flex-shrink: 0;
 }
 
-.hero-div-svg {
+/* .hero-div-svg {
+} */
+
+.svg-container {
+  flex: 1;
   display: flex;
+  justify-content: center;
 }
