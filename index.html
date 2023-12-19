@@ -37,17 +37,26 @@
 
     <main id="hero">
       <script>
-        fetch('src/partials/hero/hero.html')
-          .then((response) => response.text())
-          .then((html) => {
-            document.getElementById('hero').innerHTML = html;
-          })
-          .catch((error) => {
-            console.error('Помилка при отриманні HTML:', error);
-          });
+        function loadHTML(url, targetId) {
+          fetch(url)
+            .then((response) => response.text())
+            .then((html) => {
+              document.getElementById(targetId).innerHTML = html;
+            })
+            .catch((error) => {
+              console.error('Помилка при отриманні HTML:', error);
+            });
+        }
+
+        // Завантаження секції героя
+        loadHTML('src/partials/hero/hero.html', 'hero');
+
+        // Завантаження секції "about"
+        loadHTML('src/partials/about/about.html', 'about');
       </script>
-      background:
     </main>
+    
+    <main id="about"></main>
   </body>
   <!-- 
   <script type="module" src="src/js/index.js"></script> -->
