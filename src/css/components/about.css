@@ -1,20 +1,28 @@
 .about-section {
-height: 604px;
-    text-align: center;
+  height: 604px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.about-article{
-    padding-top: 149px;
-    gap: 49px;
+.about-article {
+  padding-top: 149px;
 }
-h2 {
-    font-family: sans-serif;
-    font-size: 24px;
-    margin-bottom: 10px;
+.about-title {
+  color: #000000;
+  text-align: left;
+  font-size: 23px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 49px;
 }
 
-p {
-    font-family: sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+.about-text {
+  color: #000000;
+  text-align: left;
+  font-size: 21px;
+  line-height: 122.3%;
+  font-weight: 500;
+  position: relative;
+  width: 705px;
 }

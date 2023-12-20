@@ -26,14 +26,34 @@ body {
 }
 
 .hero-div-svg {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0;
+  width: 100%; /* Заповнює весь ширину контейнера */
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin-bottom: -10px;
 }
 
 .svg-container {
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+svg {
+  width: 100%; /* Заповнює весь розмір батьківського контейнера */
+  height: auto;
+}
+
+.hero-title {
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 20px 0; /* Відступи між заголовком і текстом */
+}
+
+.hero-text {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 20px 0; /* Відступи між текстом і нижнім краєм контейнера */
 }

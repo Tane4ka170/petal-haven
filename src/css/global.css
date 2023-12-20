@@ -8,8 +8,8 @@
 /* @import url('./utils/variables.css'); */
 
 /* base */
-/* @import url('./base/common.css'); */
 @import url('./variables/reset.css');
+@import url('./variables/base.css');
 
 /* components */
 @import url('./components/hero.css');
