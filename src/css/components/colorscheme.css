@@ -1,0 +1,32 @@
+.color-section {
+    height: 604px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scheme-article {
+    padding-top: 159px;
+    padding-bottom: 160px;
+}
+
+.color-title {
+color: #000;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    margin-bottom: 49px;
+}
+
+.scheme-text {
+color: #000;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 122.3%;
+    letter-spacing: -0.42px;
+    position: relative;
+    width: 702px;
+}

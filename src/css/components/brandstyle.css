@@ -1,0 +1,32 @@
+.brandstyle-section {
+    height: 604px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-article {
+    padding-top: 153px;
+    padding-bottom: 160px;
+}
+
+.brand-title {
+color: #000;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+        padding-bottom: 43px;
+}
+
+.brand-text {
+color: #000;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 122.3%;
+    letter-spacing: -0.42px;
+    position: relative;
+    width: 694px;
+}
