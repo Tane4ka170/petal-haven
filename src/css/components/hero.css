@@ -26,20 +26,17 @@ body {
 }
 
 .hero-div-svg {
-  width: 100%; /* Заповнює весь ширину контейнера */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .svg-container {
-  width: 100%;
   text-align: center;
 }
 
-svg {
-  width: 100%; /* Заповнює весь розмір батьківського контейнера */
-  height: auto;
+.hero-svg {
+  fill: #fff;
 }
 
 .hero-title {
@@ -47,7 +44,7 @@ svg {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  margin: 20px 0; /* Відступи між заголовком і текстом */
+  margin: 33px 0;
 }
 
 .hero-text {
@@ -55,5 +52,5 @@ svg {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  margin: 20px 0; /* Відступи між текстом і нижнім краєм контейнера */
+  margin: 20px 0;
 }
