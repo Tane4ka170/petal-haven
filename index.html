@@ -54,16 +54,13 @@
               console.error('Помилка при отриманні HTML:', error);
             });
         }
-
-        // Завантаження секції героя
         loadHTML('src/partials/hero/hero.html', 'hero');
-
-        // Завантаження секції "about"
         loadHTML('src/partials/about/about.html', 'about');
         loadHTML('src/partials/promo/promo.html', 'promo');
         loadHTML('src/partials/brandStyle/brandstyle.html', 'brandstyle');
         loadHTML('src/partials/imgbrand/imgbrand.html', 'imgbrand');
         loadHTML('src/partials/colorScheme/colorscheme.html', 'colorscheme');
+        loadHTML('src/partials/colorPalette/colorpalette.html', 'colorpalette');
       </script>
     </main>
 
@@ -72,6 +69,7 @@
     <main id="brandstyle"></main>
     <main id="imgbrand"></main>
     <main id="colorscheme"></main>
+    <main id="colorpalette"></main>
   </body>
   <!-- 
   <script type="module" src="src/js/index.js"></script> -->
