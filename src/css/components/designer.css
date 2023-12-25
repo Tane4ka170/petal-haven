@@ -1,0 +1,50 @@
+.designer-section {
+  display: flex;
+  flex-direction: column; /* Змінено на колонку */
+  justify-content: center;
+  align-items: center;
+  height: 594px;
+}
+
+.designer-div {
+  text-align: center;
+  padding: 20px;
+}
+
+.designer-title {
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.designer-name {
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.designer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.social-network {
+  color: #000000;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  position: relative;
+}
+
+.social-network-name {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700;
+}

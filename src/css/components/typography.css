@@ -1,0 +1,29 @@
+.typography-section {
+  height: 604px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typography-article {
+  padding-top: 149px;
+  padding-bottom: 148px;
+}
+.typography-title {
+  color: #000000;
+  text-align: left;
+  font-size: 23px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 49px;
+}
+
+.typography-text {
+  color: #000000;
+  text-align: left;
+  font-size: 21px;
+  line-height: 122.3%;
+  font-weight: 500;
+  position: relative;
+  width: 705px;
+}

@@ -1,8 +1,6 @@
 .palette-section {
   display: flex;
   height: 618px;
-  width: 100%;
-  justify-content: space-between;
   box-sizing: border-box;
 }
 
