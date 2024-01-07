@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #a9adaa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logoLink {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-icon {
+  fill: #686044;
+}
+
+.nav-header {
+  display: flex;
+  gap: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #686044;
+  font-weight: bold;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #667c29;
+  }
+}

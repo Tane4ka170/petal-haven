@@ -38,10 +38,19 @@
   </head>
 
   <body>
-    <noscript class="text-center text-lg text-red-500">
-      Enable JavaScript to enjoy all the features of this app.
-    </noscript>
-
+    <header class="header">
+      <a class="header-logo link logoLink" href="./index.html">
+        <svg class="header-logo-icon" width="127" height="50" aria-label="logo">
+          <use href="./src/images/sprite.svg#icon-Petal-haven"></use>
+        </svg>
+      </a>
+      <nav class="nav-header">
+        <a href="#about" class="navLink">About</a>
+        <a href="#brandstyle" class="navLink">Brand Style</a>
+        <a href="#colorscheme" class="navLink">Color Scheme</a>
+        <a href="#typography" class="navLink">Typography</a>
+      </nav>
+    </header>
     <main id="hero">
       <script>
         function loadHTML(url, targetId) {
@@ -54,7 +63,6 @@
               console.error('Помилка при отриманні HTML:', error);
             });
         }
-        loadHTML('src/partials/header/header.html', 'header');
         loadHTML('src/partials/hero/hero.html', 'hero');
         loadHTML('src/partials/about/about.html', 'about');
         loadHTML('src/partials/promo/promo.html', 'promo');
