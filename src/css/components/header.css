@@ -32,3 +32,44 @@
     color: #667c29;
   }
 }
+
+@media screen and (max-width: 1440px) {
+  .header {
+      flex-direction: row;
+      /* Зміна на розташування в один ряд */
+    }
+  
+    .nav-header {
+      margin-left: auto;
+      /* Розташування навігації справа */
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .burger-menu {
+    display: block;
+    /* Показуємо бургер-меню на мобільних телефонах */
+  }
+
+  .nav-header {
+    display: none;
+    /* Ховаємо основне меню на мобільних телефонах */
+  }
+
+  .burger-menu.active .burger-bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .burger-menu.active .burger-bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger-menu.active .burger-bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  .mobile-menu {
+    display: flex;
+    /* Показуємо мобільне меню на мобільних телефонах */
+  }
+}
