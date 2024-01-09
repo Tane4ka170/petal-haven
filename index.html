@@ -50,13 +50,18 @@
         <a href="#colorscheme" class="navLink">Color Scheme</a>
         <a href="#typography" class="navLink">Typography</a>
       </nav>
-      <!-- Додайте кнопку бургер-меню та контейнер для мобільного меню -->
-      <button class="burger-menu" id="burgerMenu">
+      <!-- Mobile menu -->
+      <button
+        class="burger-menu js-open-menu"
+        id="burgerMenu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
         <svg width="32" height="32">
           <use href="./src/images/sprite.svg#icon-burger"></use>
         </svg>
       </button>
-      <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu js-menu-container" id="mobileMenu">
         <a href="#about" class="navLink">About</a>
         <a href="#brandstyle" class="navLink">Brand Style</a>
         <a href="#colorscheme" class="navLink">Color Scheme</a>
@@ -102,7 +107,6 @@
     <main id="imgtypography"></main>
     <main id="designer"></main>
     <main id="footerimg"></main>
-    <script type="module" src="src/js/burger.js"></script>
+    <script type="module" src="./src/js/burger.js"></script>
   </body>
-  
 </html>

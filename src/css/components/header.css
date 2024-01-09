@@ -35,14 +35,14 @@
 
 @media screen and (max-width: 1440px) {
   .header {
-      flex-direction: row;
-      /* Зміна на розташування в один ряд */
-    }
-  
-    .nav-header {
-      margin-left: auto;
-      /* Розташування навігації справа */
-    }
+    flex-direction: row;
+    /* Зміна на розташування в один ряд */
+  }
+
+  .nav-header {
+    margin-left: auto;
+    /* Розташування навігації справа */
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -70,6 +70,5 @@
 
   .mobile-menu {
     display: flex;
-    /* Показуємо мобільне меню на мобільних телефонах */
   }
 }
