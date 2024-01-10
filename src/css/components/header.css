@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439.98px) {
   .header {
     flex-direction: row;
     /* Зміна на розташування в один ряд */
@@ -46,29 +46,22 @@
 }
 
 @media screen and (max-width: 768px) {
-  .burger-menu {
-    display: block;
-    /* Показуємо бургер-меню на мобільних телефонах */
+  .header {
+    flex-direction: row;
+    /* Keep elements in a horizontal layout */
+    padding: 10px;
+    /* Adjust padding for smaller spacing */
   }
 
   .nav-header {
-    display: none;
-    /* Ховаємо основне меню на мобільних телефонах */
+    margin-left: auto;
+    /* Move navigation to the right */
   }
 
-  .burger-menu.active .burger-bar:nth-child(1) {
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-
-  .burger-menu.active .burger-bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .burger-menu.active .burger-bar:nth-child(3) {
-    transform: rotate(45deg) translate(-5px, -6px);
-  }
-
-  .mobile-menu {
-    display: flex;
+  .navLink {
+    font-size: 14px;
+    /* Adjust font size for smaller screens */
+    text-align: center;
+    /* Center align text */
   }
 }

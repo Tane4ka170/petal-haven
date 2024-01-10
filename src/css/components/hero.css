@@ -4,8 +4,10 @@ body {
   margin: 0;
 }
 
+/* Стилі для секції героя (hero-section) */
 .hero-section {
-  height: 1093px;
+  height: 100vh;
+  /* Використовуйте 100% висоти вікна для адаптації на всі екрани */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,42 +17,90 @@ body {
   background-repeat: no-repeat;
 }
 
+/* Стилі для контейнера з героєм (hero-div) */
 .hero-div {
   display: flex;
   flex-direction: column;
-  width: 605px;
-  height: 458px;
+  width: 80%;
+  /* Зменшуємо ширину контейнера для адаптації під різні екрани */
+  max-width: 605px;
+  /* Зберігаємо максимальну ширину для планшетів */
+  height: auto;
+  /* Змінюємо висоту на автоматичну для адаптації */
   justify-content: space-around;
   align-items: center;
   flex-shrink: 0;
 }
 
+/* Стилі для контейнера з SVG (hero-div-svg) */
 .hero-div-svg {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.svg-container {
-  text-align: center;
-}
-
+/* Стилі для SVG-елемента (hero-svg) */
 .hero-svg {
   fill: #fff;
+  max-width: 100%;
+  /* Зробіть SVG адаптивним */
+  height: auto;
 }
 
-.hero-title {
-  font-size: 48px;
+.svg-container {
   text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-  margin: 33px 0;
+  max-width: 100%;
+  /* Зробіть контейнер адаптивним */
 }
 
-.hero-text {
-  font-size: 24px;
+/* Стилі для заголовка героя (hero-title) */
+.hero-title {
+  font-size: 36px;
+  /* Зменшуємо розмір для адаптації */
   text-align: center;
   text-transform: uppercase;
   color: #fff;
   margin: 20px 0;
+  /* Зменшуємо відступи для адаптації */
+}
+
+/* Стилі для тексту героя (hero-text) */
+.hero-text {
+  font-size: 18px;
+  /* Зменшуємо розмір для адаптації */
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 10px 0;
+  /* Зменшуємо відступи для адаптації */
+}
+
+/* Медіа-запит для планшетів (max-width: 1440px) */
+@media screen and (max-width: 1440px) {
+  .hero-div {
+    width: 90%;
+    /* Зменшуємо ширину контейнера для адаптації на планшетах */
+  }
+}
+
+/* Медіа-запит для телефонів (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .hero-div {
+    width: 100%;
+    /* Зменшуємо ширину контейнера для адаптації на телефонах */
+  }
+
+  .hero-title {
+    font-size: 24px;
+    /* Зменшуємо розмір для адаптації на телефонах */
+    margin: 15px 0;
+    /* Зменшуємо відступи для адаптації */
+  }
+
+  .hero-text {
+    font-size: 16px;
+    /* Зменшуємо розмір для адаптації на телефонах */
+    margin: 8px 0;
+    /* Зменшуємо відступи для адаптації */
+  }
 }
