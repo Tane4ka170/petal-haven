@@ -6,16 +6,19 @@
 }
 
 .about-article {
-  padding-top: 149px;
-  padding-bottom: 148px;
+  width: 80%;
+  max-width: 700px;
+  padding: 20px;
+  margin: 0 auto;
 }
+
 .about-title {
   color: #000000;
   text-align: left;
   font-size: 23px;
   font-weight: 700;
   position: relative;
-  margin-bottom: 49px;
+  margin-bottom: 20px;
 }
 
 .about-text {
@@ -24,6 +27,36 @@
   font-size: 21px;
   line-height: 122.3%;
   font-weight: 500;
-  position: relative;
-  width: 705px;
+}
+
+/* Медіа-запит для планшетів (max-width: 1440px) */
+@media screen and (max-width: 1440px) {
+  .about-article {
+    width: 80%;
+  }
+
+  .about-title {
+    font-size: 28px;
+  }
+
+  .about-text {
+    font-size: 18px;
+  }
+}
+
+/* Медіа-запит для телефонів (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .about-article {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .about-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
 }
