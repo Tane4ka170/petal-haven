@@ -75,3 +75,35 @@
   padding-right: 30px; /* Падінг справа */
   padding-left: 30px;
 }
+
+@media (max-width: 1439.98px) {
+  .promo-section {
+    width: 100%; /* Розтягніть секцію на всю ширину екрану на планшетах і телефонах */
+    grid-template-columns: 1fr; /* Одна колонка на планшеті */
+    grid-template-rows: auto auto auto; /* Три рядки для адаптації */
+  }
+
+  .first-block {
+    grid-column: span 1; /* Займати одну колонку */
+  }
+
+  .second-block,
+  .third-block {
+    display: none; /* Приховати другий і третій блоки на планшеті */
+  }
+
+  .promo-img {
+    height: auto; /* Адаптувати висоту зображень для планшетів */
+  }
+
+  .svg-promo-div {
+    max-width: 100%; /* Адаптувати розмір SVG на планшетах */
+  }
+}
+
+/* Медіа-запит для телефонів */
+@media (max-width: 768px) {
+  .promo-section {
+    display: none; /* Приховати секцію на телефонах */
+  }
+}

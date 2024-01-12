@@ -1,32 +1,64 @@
 .brandstyle-section {
-    height: 604px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 604px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .brand-article {
-    padding-top: 153px;
-    padding-bottom: 160px;
+  padding-top: 153px;
+  padding-bottom: 160px;
 }
 
 .brand-title {
-color: #000;
-    font-size: 23px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    position: relative;
-        padding-bottom: 43px;
+  color: #000;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  padding-bottom: 43px;
 }
 
 .brand-text {
-color: #000;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 122.3%;
-    letter-spacing: -0.42px;
-    position: relative;
-    width: 694px;
+  color: #000;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 122.3%;
+  letter-spacing: -0.42px;
+  position: relative;
+  width: 694px;
+}
+
+@media screen and (max-width: 1440px) {
+  .brand-article {
+    max-width: 600px;
+  }
+
+  .brand-title {
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+
+  .brand-text {
+    font-size: 16px;
+  }
+}
+
+/* Медіа-запит для телефонів (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .brand-article {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .brand-title {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .brand-text {
+    font-size: 14px;
+  }
 }
