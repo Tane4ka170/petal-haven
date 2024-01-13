@@ -1,9 +1,22 @@
-.imgbrand-section{
-    width: 100%;
+.imgbrand-section {
+  width: 100%;
 }
 
-.img-brand{
-width: 100%;
-    height: 1111px;
-    object-fit: cover;
+.img-brand {
+  width: 100%;
+  height: 1111px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1440px) {
+  .img-brand {
+    height: auto; /* Автоматична висота для адаптації на планшеті */
+  }
+}
+
+/* Медіа-запит для телефонів (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .img-brand {
+    height: auto; /* Автоматична висота для адаптації на телефоні */
+  }
 }

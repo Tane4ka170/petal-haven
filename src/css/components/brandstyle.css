@@ -1,13 +1,18 @@
 .brandstyle-section {
-  height: 604px;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .brand-article {
+  width: 100%; /* Змінено на 100% для відповідності батьківському елементу */
   padding-top: 153px;
   padding-bottom: 160px;
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .brand-title {
@@ -29,11 +34,13 @@
   letter-spacing: -0.42px;
   position: relative;
   width: 694px;
+  width: 100%; /* Змінено на 100%, щоб забезпечити адаптивність */
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1440px) {
   .brand-article {
-    max-width: 600px;
+    width: 80%;
   }
 
   .brand-title {
@@ -47,8 +54,11 @@
 }
 
 /* Медіа-запит для телефонів (max-width: 768px) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.98px) {
   .brand-article {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -59,6 +69,6 @@
   }
 
   .brand-text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
