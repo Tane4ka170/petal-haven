@@ -8,6 +8,10 @@
 .typography-article {
   padding-top: 149px;
   padding-bottom: 148px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 .typography-title {
   color: #000000;
@@ -26,4 +30,42 @@
   font-weight: 500;
   position: relative;
   width: 705px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1439.98px) {
+  .typography-article {
+    width: 80%;
+  }
+
+  .typography-title {
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+
+  .typography-text {
+    font-size: 16px;
+  }
+}
+
+/* Медіа-запит для телефонів (max-width: 768px) */
+@media screen and (max-width: 767.98px) {
+  .typography-article {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .typography-title {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .typography-text {
+    font-size: 16px;
+  }
 }

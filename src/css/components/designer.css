@@ -48,3 +48,31 @@
   font-size: 25px;
   font-weight: 700;
 }
+
+/* Адаптація для планшетів (max-width: 1439.98px, min-width: 768px) */
+@media screen and (max-width: 1439.98px) and (min-width: 768px) {
+  .designer-section {
+    height: 400px; /* Зменшіть це значення на те, яке вам підходить */
+  }
+
+  .designer-title,
+  .designer-name,
+  .social-network,
+  .social-network-name {
+    font-size: 20px; /* Змініть це значення на те, яке вам підходить */
+  }
+}
+
+/* Адаптація для телефонів (max-width: 767.98px) */
+@media screen and (max-width: 767.98px) {
+  .designer-section {
+    height: 300px; /* Зменшіть це значення на те, яке вам підходить */
+  }
+
+  .designer-title,
+  .designer-name,
+  .social-network,
+  .social-network-name {
+    font-size: 16px; /* Змініть це значення на те, яке вам підходить */
+  }
+}

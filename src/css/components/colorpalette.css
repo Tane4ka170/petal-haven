@@ -57,3 +57,38 @@
   justify-content: space-between;
   align-items: flex-end;
 }
+
+/* Адаптація для планшетів (max-width: 1439.98px, min-width: 768px) */
+@media screen and (max-width: 1439.98px) and (min-width: 768px) {
+  .palette-section {
+    height: 400px; /* Зменшити висоту на планшетах */
+  }
+
+  .color-li {
+    padding: 5px; /* Зменшити відступ на планшетах */
+  }
+
+  .palette-p {
+    width: 100%; /* Зробити текст повністю широким на планшетах */
+  }
+}
+
+/* Адаптація для телефонів (max-width: 767.98px) */
+@media screen and (max-width: 767.98px) {
+  .palette-section {
+    height: 400px; /* Змінити висоту на телефонах */
+  }
+
+  .color-li {
+    padding: 5px; /* Зменшити відступ на телефонах */
+  }
+
+  .color-info {
+    align-items: center;
+  }
+
+  .palette-p {
+    font-size: 16px; /* Зменшити розмір шрифту на телефонах */
+    width: 100%; /* Зробити текст повністю широким на телефонах */
+  }
+}

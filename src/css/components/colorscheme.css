@@ -1,32 +1,74 @@
 .color-section {
-    height: 604px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 604px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .scheme-article {
-    padding-top: 159px;
-    padding-bottom: 160px;
+  padding-top: 159px;
+  padding-bottom: 160px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .color-title {
-color: #000;
-    font-size: 23px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    position: relative;
-    margin-bottom: 49px;
+  color: #000;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  margin-bottom: 49px;
 }
 
 .scheme-text {
-color: #000;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 122.3%;
-    letter-spacing: -0.42px;
-    position: relative;
-    width: 702px;
+  color: #000;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 122.3%;
+  letter-spacing: -0.42px;
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1439.98px) {
+  .scheme-article {
+    width: 80%;
+  }
+
+  .color-title {
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+
+  .scheme-text {
+    font-size: 16px;
+  }
+}
+
+/* Медіа-запит для телефонів (max-width: 768px) */
+@media screen and (max-width: 767.98px) {
+  .scheme-article {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .color-title {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .scheme-text {
+    font-size: 16px;
+  }
 }

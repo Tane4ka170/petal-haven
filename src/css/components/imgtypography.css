@@ -7,3 +7,18 @@
   height: 960px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1439.98px) and (min-width: 768px) {
+  .img-typography {
+    max-height: 600px; /* Змініть це значення на те, яке вам підходить */
+    height: auto;
+  }
+}
+
+/* Адаптація для телефонів (max-width: 767.98px) */
+@media screen and (max-width: 767.98px) {
+  .img-typography {
+    max-height: 400px; /* Змініть це значення на те, яке вам підходить */
+    height: auto;
+  }
+}
